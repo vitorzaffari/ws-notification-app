@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Vitor Zaffari",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
